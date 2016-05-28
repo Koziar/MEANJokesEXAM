@@ -1,0 +1,13 @@
+//Created by Luke on 28.05.2016.
+
+
+extends layout
+
+block content
+    h1 All jokes:
+    ul
+        each val in allJ
+            li= val
+
+    br
+    a(href= '/') Home
